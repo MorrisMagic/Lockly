@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "Passworder",
-    "slug": "Passworder",
+    "name": "Lockly",
+    "slug": "Lockly",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/key.png",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#212121"
     },
     "ios": {
       "supportsTablet": true
@@ -18,11 +18,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#212121"
+      },
+      "package": "com.youssefhabbachixx.Lockly"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68bfb8a4-c135-4141-905d-5a10e647fd06"
+      }
     }
   }
 }
